@@ -2,6 +2,9 @@
 Converts Zelda BOTW save files from Switch to Wii U and vice versa
 
 Should be usable on all operating systems - Windows, Linux and Mac.
-I have no detailed building instructions, since Microsoft is known from providing a crap.
-I can only suggest to download some IDE, open that project and run it (so IDE will guess that it should first compile that project for you).
-Some day I might rewrite that to Golang, then it will be a bit easier to build (still not perfect as you will have to pray a bit for success - don't know why people have tendency to write hard to use software).
+Once you install .NET SDK 6.0 on your platform, run following command from your cloned project folder: dotnet build -c Release
+The binaries should be in folder like: ./botw_save_converter/bin/Release/net6.0
+
+If you still have any problems with building, I can only suggest you to download some IDE, open that project and run it (so IDE will guess that it should first compile that project for you).
+
+Some day I might rewrite that to Golang, so it would be a bit easier to build and run.
